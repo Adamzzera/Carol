@@ -1,0 +1,155 @@
+html{
+    min-height: 100%;
+}
+body {
+    font-family: 'alkatra', cursive;
+    background: linear-gradient(225deg, rgba(2,0,36,1) 0%, rgba(246,6,193,1) 35%, rgba(255,0,0,1) 100%);
+    -webkit-font-smoothing: antialiased;
+    margin: 0 20px; 
+}
+
+strong {
+    font-weight: 700;
+}
+
+header, section, footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    max-width: 700px;
+}
+
+header{
+    color: #fff;
+    display: flex;
+}
+
+.symbol-container i{
+    font-size: 60px;
+}
+
+.person-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.person-container strong {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.person-container span {
+    font-size: 20px;
+
+}
+
+.purpose {
+    box-sizing: border-box;
+    max-width: 900px;
+    padding: 30px;
+    background: #fff;
+    border-top-left-radius: 50px;
+    -webkit-box-shadow: -20px 22px 33px -2px rgba(0,0,0,0.56);
+    -moz-box-shadow: -20px 22px 33px -2px rgba(0,0,0,0.56);
+    box-shadow: -20px 22px 33px -2px rgba(0,0,0,0.56);
+}
+
+.purpose__photo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.purpose__photo-container img {
+    width: 170px;
+
+}
+
+.purpose__description-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.purpose__description-container h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: blueviolet;
+    font-size: 18px;
+}
+
+.purpose__description-container p {
+    margin-top: 15px;
+    color: rgb(2, 0, 3);
+}
+
+.purpose__description-container div {
+    margin-top: 30px;
+    color: #757272;
+}
+
+.goals {
+    color: #fff;
+}
+
+.goals h1 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.goals ul {
+    
+    margin-top: 15px;
+    text-align: center;
+}
+
+.goals li {
+    line-height: 1.2;
+    margin-top: 10px;
+    font-weight: 100px;
+    text-align: center;
+
+}
+
+footer {
+    
+    color: #fff;
+    text-align: center;
+    margin: 80px auto 30px;
+}
+
+@media (min-width:768px){
+.purpose {
+    display: flex;
+}
+
+.purpose__description-container {
+    text-align: left;
+    margin-left: 30px;
+}
+}
+
+@media(min-width: 898px){
+    .symbol-container i{
+        font-size: 80px;
+    }
+
+    .person-container strong {
+        font-size: 34px;
+
+    }
+
+    .person-container span{
+        font-size: 24px;
+
+    }
+
+    .purpose__description-container {
+        margin-left: 50px;
+    }
+}
+
